@@ -1,0 +1,50 @@
+.third-section {
+   h2 {
+      @include headerTitle($text-color, $light-blue);
+   }
+
+   .ts-right-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+         max-width: 80%;
+         margin-top: -15rem;
+      }
+   }
+
+   .ts-left-content {
+      max-width: 50%;
+
+      ul {
+         margin-top: 2.5rem;
+      }
+   }
+}
+
+@media (max-width: 1024px) {
+   .third-section {
+      .section-content {
+         flex-direction: column-reverse;
+      }
+
+      img {
+         max-width: 50% !important;
+         margin: 0 !important;
+      }
+
+      .ts-left-content {
+         max-width: 100% !important;
+      }
+   }
+}
+
+@media (max-width: 600px) {
+   .third-section {
+      img {
+         max-width: 80% !important;
+         margin-top: 0 2rem !important;
+      }
+   }
+}

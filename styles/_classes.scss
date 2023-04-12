@@ -1,0 +1,78 @@
+.button-cta {
+   font-size: 2.4rem;
+   margin-top: 4.5rem;
+   padding: 1.5rem 4rem;
+   border-radius: 2rem;
+   font-weight: 900;
+   transition: ease-in-out 0.2s;
+}
+
+.section {
+   margin: 5rem auto;
+   padding: 10rem 20rem;
+}
+
+@mixin headerTitle($backgroundColor, $textColor) {
+   font-weight: 900;
+   display: inline;
+   padding: 0.5rem 2rem;
+   font-size: 4.5rem;
+   background-color: $backgroundColor;
+   color: $textColor;
+}
+
+.section-content {
+   line-height: 3rem;
+   display: flex;
+   gap: 10rem;
+   margin-top: 5rem;
+   font-size: 2.4rem;
+}
+
+.cta {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 10rem;
+   margin-top: -5rem;
+
+   a {
+      background-color: $light-blue;
+      color: $text-color;
+      margin: 0;
+      padding: 1.5rem 20rem;
+
+      &:hover {
+         transform: scale(1.1);
+         opacity: 0.9;
+      }
+   }
+}
+
+@media (max-width: 1024px) {
+   .section {
+      text-align: center;
+      padding: 2rem 4rem;
+
+      p {
+         max-width: 100% !important;
+      }
+   }
+
+   .section-content {
+      flex-direction: column;
+      gap: 5rem;
+   }
+}
+
+@media (max-width: 500px) {
+   .cta {
+      margin: 0 3rem !important;
+   }
+
+   .button-cta {
+      text-align: center;
+      width: 100%;
+      padding: 2rem 4rem !important;
+   }
+}

@@ -1,0 +1,28 @@
+.second-section,
+.fourth-section {
+   text-align: center;
+   background-color: #00bf95;
+
+   h2 {
+      @include headerTitle(black, $text-color);
+   }
+   .section-content {
+      align-items: center;
+      flex-direction: column;
+   }
+
+   p {
+      color: #100523;
+      max-width: 75%;
+   }
+
+   a {
+      background-color: #100523;
+      margin-top: 0;
+      border: 2px solid #100523;
+
+      &:hover {
+         opacity: 0.9;
+      }
+   }
+}

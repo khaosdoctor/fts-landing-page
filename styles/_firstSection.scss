@@ -1,0 +1,29 @@
+.first-section {
+   h2 {
+      @include headerTitle($light-blue, $aqua);
+   }
+
+   .fs-left-content img {
+      width: 15rem;
+   }
+
+   .fs-right-content {
+      img {
+         max-width: 20rem;
+         margin-top: 3.5rem;
+      }
+
+      ul {
+         margin-top: 2.5rem;
+      }
+
+      a {
+         display: inline-block;
+         background-color: $light-blue;
+
+         &:hover {
+            opacity: 0.9;
+         }
+      }
+   }
+}

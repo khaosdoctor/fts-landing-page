@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 81 19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00ffc6;
+      }
+
+      .cls-2 {
+        fill: #06f;
+      }
+
+      .cls-3 {
+        fill: #235a97;
+      }
+    </style>
+  </defs>
+  <g id="Módulos_Page" data-name="Módulos Page">
+    <g>
+      <rect class="cls-3" width="19" height="19" rx="4.61" ry="4.61"/>
+      <rect class="cls-1" x="31" width="19" height="19" rx="4.61" ry="4.61"/>
+      <rect class="cls-2" x="62" width="19" height="19" rx="4.61" ry="4.61"/>
+    </g>
+  </g>
+</svg>

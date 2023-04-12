@@ -1,0 +1,46 @@
+* {
+   padding: 0;
+   margin: 0;
+   font-family: "Inconsolata", monospace;
+   font-weight: 300;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+
+:root {
+   font-size: 62.5%;
+   color: #fff;
+}
+
+a {
+   color: #fff;
+}
+
+ul {
+   list-style: none;
+}
+
+body {
+   height: 100vh;
+   background-image: url("./../assets/bg.svg");
+   background-size: cover;
+   background-position: top;
+}
+
+@media (max-width: 500px) {
+   :root {
+      font-size: 50%;
+   }
+
+   body {
+      background-image: url("./../assets/bg-mobile.svg");
+      background-size: cover;
+      background-position: top;
+   }
+}
+
+@media (max-width: 313px) {
+   :root {
+      font-size: 40%;
+   }
+}
