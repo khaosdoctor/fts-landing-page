@@ -3,6 +3,10 @@
       @include headerTitle($light-blue, $aqua);
    }
 
+   p {
+      margin-bottom: 15px;
+   }
+
    .fs-left-content img {
       width: 15rem;
    }

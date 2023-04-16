@@ -16,8 +16,16 @@ html {
    scroll-behavior: smooth;
 }
 
-a {
-   color: #fff;
+b, strong, a {
+   font-weight: bold;
+   color: $light-blue;
+   &.raw {
+      color: white;
+   }
+}
+
+a.button-cta, a.nav-item, a.nav-cta {
+   color: white;
 }
 
 ul {

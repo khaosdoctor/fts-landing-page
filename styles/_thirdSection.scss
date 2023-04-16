@@ -3,6 +3,10 @@
       @include headerTitle($text-color, $light-blue);
    }
 
+   p {
+      margin-bottom: 15px;
+   }
+
    .ts-right-content {
       display: flex;
       align-items: center;
