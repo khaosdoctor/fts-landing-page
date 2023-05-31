@@ -96,7 +96,7 @@ body {
 
 @media (max-width: 1024px) {
   .section {
-    text-align: center;
+    text-align: left;
     padding: 2rem 4rem;
   }
   .section p {
