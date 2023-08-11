@@ -227,6 +227,13 @@ div.intro {
   opacity: 0.9;
 }
 
+.simple-link {
+  text-decoration: underline;
+  color: #235aff;
+  background-color: transparent !important;
+  border: none !important;
+}
+
 @media (max-width: 1024px) {
   .hero {
     padding: 2rem 2rem;
@@ -272,7 +279,7 @@ div.intro {
 .section-content {
   line-height: 3rem;
   display: flex;
-  gap: 10rem;
+  gap: 5rem;
   margin-top: 5rem;
   font-size: 2.4rem;
 }
