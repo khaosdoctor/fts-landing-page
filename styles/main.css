@@ -347,7 +347,8 @@ div.intro {
   margin-top: 2.5rem;
 }
 .first-section .fs-right-content a {
-  display: inline-block;
+  display: block;
+  text-align: center;
   background-color: #235aff;
 }
 .first-section .fs-right-content a:hover {
@@ -359,6 +360,7 @@ div.intro {
   text-align: center;
   background-color: #00bf95;
 }
+
 .second-section h2,
 .fourth-section h2 {
   font-weight: 900;
